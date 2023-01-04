@@ -1,15 +1,13 @@
-# Portfolio 2021 - David van Rumpt
-![](https://github.com/davidvanr21/portfolio/blob/main/img/github/animatedName_git.gif) 
+# brandstov | digital agency
 
-Watch my best projects on my portfolio.
+A website for brandstov. A digitial agency startup by two guys. Me and my CO-founder [Joppe Pelgrim](https://www.linkedin.com/in/joppe-pelgrim-58499aa9/)
+Started 21 december 2022. 
 
 
 ## In progress
-This project will never be done. There will always be new ideas and more recent projects that I'm working on. Feel free to contact me so we can talk about some work.
+This project will never be done. There will always be new ideas and more recent projects we're working on.
 
 ## Credits
-- Big thanks to [Ralf Zonneveld](https://github.com/ralfz123) for helping me with install and put this site online.
-- Also a big thanks to [Inju Michorius](https://github.com/InjuMichorius)!
 - FLARE template by [styleshout](https://www.styleshout.com/).
 
 

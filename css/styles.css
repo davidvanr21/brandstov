@@ -179,23 +179,23 @@
     --color-gray-2 : #e2e3e5;
     --color-gray-1 : #f0f1f2;
     /* Changed to black color because of the white background */
-    --color-white  : #161719;
+    --color-white  : #f1f1f2;
 
     /* text
      */
-    --color-text       : var(--color-gray-10);
+    --color-text       : var(--color-gray-9);
     --color-text-dark  : var(--color-white);
     --color-text-light : var(--color-gray-12);
     --color-placeholder: var(--color-gray-11);
 
     /* buttons
      */
-    --color-btn                   : var(--color-gray-15);
-    --color-btn-text              : var(--color-white);
+    --color-btn                   : var(--color-black);
+    --color-btn-text              : var(--color-black);
     --color-btn-hover             : var(--color-white);
     --color-btn-hover-text        : var(--color-black);
     --color-btn-primary           : var(--color-4);
-    --color-btn-primary-text      : var(--color-white);
+    --color-btn-primary-text      : var(--color-black);
     --color-btn-primary-hover     : var(--color-white);
     --color-btn-primary-hover-text: var(--color-black);
     --color-btn-stroke            : var(--color-white);
@@ -492,9 +492,9 @@ button, select {
 
 /* Correct the inability to style clickable types in iOS and Safari. */
 
-button, [type="button"], [type="reset"], [type="submit"] {
+/* button, [type="button"], [type="reset"], [type="submit"] {
     -webkit-appearance: button;
-}
+} */
 
 /* Remove the inner border and padding in Firefox. */
 
@@ -569,7 +569,7 @@ textarea {
  * 2. Correct the outline style in Safari. */
 
 [type="search"] {
-    -webkit-appearance: textfield;
+    /* -webkit-appearance: textfield; */
     /* 1 */
     outline-offset: -2px;
     /* 2 */
@@ -3414,7 +3414,7 @@ input::-moz-focus-inner {
 
 /* Contact button icon */
 .s-header__content .btn svg path {
-    fill: black;
+    fill: red;
 }
 
 .s-header__content .btn svg path:hover,
@@ -4146,7 +4146,8 @@ html.no-csstransitions .s-hero__content {
  * # about
  * ------------------------------------------------------------------- */
 .s-about {
-    background-color: var(--color-bg);
+    /* background-color: var(--color-bg); */
+    background-color: var(--color-1);
     padding-top: calc(3 * var(--space));
     padding-bottom: 0;
     position: relative;
@@ -4199,6 +4200,8 @@ html.no-csstransitions .s-hero__content {
     right: var(--gutter-lg);
     left: var(--gutter-lg);
     bottom: var(--vspace-1);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 
@@ -4294,7 +4297,8 @@ html.no-csstransitions .s-hero__content {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    background-color: var(--color-bg);
+    /* background-color: var(--color-bg); */
+    background-color: var(--color-1);
     padding-top: calc(2 * var(--space));
     padding-bottom: var(--vspace-2);
 }
