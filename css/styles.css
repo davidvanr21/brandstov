@@ -492,9 +492,9 @@ button, select {
 
 /* Correct the inability to style clickable types in iOS and Safari. */
 
-/* button, [type="button"], [type="reset"], [type="submit"] {
+button, [type="button"], [type="reset"], [type="submit"] {
     -webkit-appearance: button;
-} */
+}
 
 /* Remove the inner border and padding in Firefox. */
 
@@ -569,7 +569,7 @@ textarea {
  * 2. Correct the outline style in Safari. */
 
 [type="search"] {
-    /* -webkit-appearance: textfield; */
+    -webkit-appearance: textfield;
     /* 1 */
     outline-offset: -2px;
     /* 2 */
@@ -668,6 +668,14 @@ canvas {
 #brandstovContent a:hover {
     text-decoration: underline;
     color: #000000;
+}
+
+.dreamTitle {
+    color: #dc38df;
+}
+
+.sloganTitle {
+    font-size: 1.6em;
 }
 
 /* ------------------------------------------------------------------- 
