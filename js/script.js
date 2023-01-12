@@ -1,4 +1,4 @@
-console.log('hello');
+console.log('video is running');
 
 const video = document.getElementById('brandstovShowreel');
 

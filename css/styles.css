@@ -4212,6 +4212,20 @@ html.no-csstransitions .s-hero__content {
     filter: grayscale(100%);
 }
 
+.s-about__photo3 {
+    background-image: url(../img/homepage/portrait_michorius.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: var(--vspace-0_5);
+    right: var(--gutter-lg);
+    left: var(--gutter-lg);
+    bottom: var(--vspace-1);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## about process
